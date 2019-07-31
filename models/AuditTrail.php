@@ -1,6 +1,6 @@
 <?php
 
-namespace ramyaj\auditlogs\models;
+namespace jaymar0526\auditlogs\models;
 
 use Yii;
 

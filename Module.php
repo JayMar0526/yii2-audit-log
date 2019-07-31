@@ -1,6 +1,6 @@
 <?php
 
-namespace ramyaj\auditlogs;
+namespace jaymar0526\auditlogs;
 
 /**
  * ppms module definition class
@@ -10,7 +10,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'ramyaj\auditlogs\controllers';
+    public $controllerNamespace = 'jaymar0526\auditlogs\controllers';
 
     /**
      * @inheritdoc

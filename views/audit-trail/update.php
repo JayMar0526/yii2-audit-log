@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model ramyaj\auditlogs\models\AuditTrail */
+/* @var $model jaymar0526\auditlogs\models\AuditTrail */
 
 $this->title = 'Update Audit Trail: ' . $model->activity_id;
 $this->params['breadcrumbs'][] = ['label' => 'Audit Trails', 'url' => ['index']];

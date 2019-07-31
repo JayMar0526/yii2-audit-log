@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model ramyaj\auditlogs\models\Log */
+/* @var $model jaymar0526\auditlogs\models\Log */
 
 $this->title = 'Update Log: ' . $model->change_id;
 $this->params['breadcrumbs'][] = ['label' => 'Logs', 'url' => ['index']];

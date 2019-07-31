@@ -5,10 +5,10 @@
 *
 */
 
-namespace ramyaj\auditlogs\classes;
+namespace jaymar0526\auditlogs\classes;
 
 use Yii;
-use ramyaj\auditlogs\models\Log;
+use jaymar0526\auditlogs\models\Log;
 
 
 class ModelAudit extends \yii\db\ActiveRecord

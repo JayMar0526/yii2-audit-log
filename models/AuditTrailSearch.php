@@ -1,14 +1,14 @@
 <?php
 
-namespace ramyaj\auditlogs\models;
+namespace jaymar0526\auditlogs\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use ramyaj\auditlogs\models\AuditTrail;
+use jaymar0526\auditlogs\models\AuditTrail;
 
 /**
- * AuditTrailSearch represents the model behind the search form about `ramyaj\auditlogs\models\AuditTrail`.
+ * AuditTrailSearch represents the model behind the search form about `jaymar0526\auditlogs\models\AuditTrail`.
  */
 class AuditTrailSearch extends AuditTrail
 {

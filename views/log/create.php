@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model ramyaj\auditlogs\models\Log */
+/* @var $model jaymar0526\auditlogs\models\Log */
 
 $this->title = 'Create Log';
 $this->params['breadcrumbs'][] = ['label' => 'Logs', 'url' => ['index']];

@@ -27,7 +27,7 @@ install Yii2-audit-log:
 
 ```bash
 
-composer require "ramyaj/yii2-audit-log:dev-master"
+composer require "jaymar0526/yii2-audit-log:master"
 ```
 
 ### 2. Configure
@@ -37,7 +37,7 @@ Add following lines to your main configuration file:
 ```php
 'modules' => [
     'auditlogs' => [
-        'class' => 'ramyaj\auditlogs\Module',
+        'class' => 'jaymar0526\auditlogs\Module',
     ],
 ],
 ```
@@ -49,7 +49,7 @@ migrations. Make sure that you have properly configured `db` application compone
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/ramyaj/yii2-audit-log/migrations
+$ php yii migrate/up --migrationPath=@vendor/jaymar0526/yii2-audit-log/migrations
 ```
 
 
@@ -57,7 +57,7 @@ $ php yii migrate/up --migrationPath=@vendor/ramyaj/yii2-audit-log/migrations
 
 ## Controller
 ```
-use ramyaj\auditlogs\classes\ControllerAudit;
+use jaymar0526\auditlogs\classes\ControllerAudit;
 
 class ProjectsController extends ControllerAudit 
 {
@@ -66,7 +66,7 @@ class ProjectsController extends ControllerAudit
 ```
 ## Models
 ```
-use ramyaj\auditlogs\classes\ModelAudit;
+use jaymar0526\auditlogs\classes\ModelAudit;
 
 class Project extends  ModelAudit //\yii\db\ActiveRecord
 {

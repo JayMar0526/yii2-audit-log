@@ -1,7 +1,7 @@
 {
-    "name": "ramyaj/yii2-audit-log",
+    "name": "jaymar0526/yii2-audit-log",
     "description": "A class",
-    "keywords": ["yii2", "yii2-audit-log", "Audit", "Logs", "ramyaj"],
+    "keywords": ["yii2", "yii2-audit-log", "Audit", "Logs", "jaymar0526"],
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ramyaj\\auditlogs\\": ""
+            "jaymar0526\\auditlogs\\": ""
         }
     }
 }

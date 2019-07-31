@@ -1,10 +1,10 @@
 <?php
 
-namespace ramyaj\auditlogs\controllers;
+namespace jaymar0526\auditlogs\controllers;
 
 use Yii;
-use ramyaj\auditlogs\models\Log;
-use ramyaj\auditlogs\models\LogSearch;
+use jaymar0526\auditlogs\models\Log;
+use jaymar0526\auditlogs\models\LogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

@@ -5,10 +5,10 @@
 *
 */
 
-namespace ramyaj\auditlogs\classes;
+namespace jaymar0526\auditlogs\classes;
 
 use Yii;
-use ramyaj\auditlogs\models\AuditTrail;
+use jaymar0526\auditlogs\models\AuditTrail;
 
 
 class ControllerAudit extends \yii\web\Controller
