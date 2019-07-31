@@ -30,7 +30,7 @@ class LogController extends Controller
             'access' => [
                 'class' => AccessControl::className(),
                 'rules' => [
-                    ['allow'=>true,'roles'=>['SuperAdministrator']],
+                    ['allow'=>true,'roles'=>['Administrator']],
                 ],
             ],
         ];
