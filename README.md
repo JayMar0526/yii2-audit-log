@@ -27,7 +27,7 @@ install Yii2-audit-log:
 
 ```bash
 
-composer require "jaymar0526/yii2-audit-log:dev-master"
+composer require jaymar0526/yii2-audit-log "@dev"
 ```
 
 ### 2. Configure
