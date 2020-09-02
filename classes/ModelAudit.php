@@ -27,6 +27,7 @@ class ModelAudit extends \yii\db\ActiveRecord
 
         if($insert){
             $model->type    = 'Insert';
+            $model->update_details  = '';
             $model->original_details  = json_encode($this->attributes);
             $model->save();
         }else{
