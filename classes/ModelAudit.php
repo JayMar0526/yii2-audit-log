@@ -69,6 +69,7 @@ class ModelAudit extends \yii\db\ActiveRecord
             $model->datetime            = date('Y-m-d H:i:s');
             $model->type                = 'Delete';
             $model->original_details    = json_encode($this->attributes);
+	    $model->update_details      = '';
             $model->save();
             return true;
         } else {
